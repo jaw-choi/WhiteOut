@@ -2,8 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Player
+  - Campfire
+  - CampfireHeatZone
+  - WoodPickUp
+  - WoodPickup
   layers:
   - Default
   - TransparentFX
@@ -11,10 +16,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Campfire
+  - CampfireHeatZone
+  - WoodPickup
   - 
   - 
   - 
@@ -41,6 +46,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 3579869061
+    locked: 0
+  - name: Campfire
+    uniqueID: 3871252809
+    locked: 0
+  - name: CampfireHeatZone
+    uniqueID: 2071980105
+    locked: 0
+  - name: WoodPickUp
+    uniqueID: 3348264335
+    locked: 0
   m_RenderingLayers:
   - Default
   - Light Layer 1
@@ -50,27 +67,3 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
